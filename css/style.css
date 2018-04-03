@@ -1,0 +1,275 @@
+body {
+  margin-top: 50px;
+  font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins';
+}
+p {
+  font-family: 'Roboto';
+}
+
+img.logo {
+  height: 35px;
+}
+.logo-text {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: -20px;
+  font-family: 'Tillana';
+}
+.navbar-default {
+  background: #fff;
+  border: 0;
+  font-family: 'Poppins';
+}
+
+.navbar-brand {
+  font-size: 20px;
+  color: #000 !important;
+  font-weight: bold;;
+}
+
+#undangan {
+  margin-top: -20px;
+  height: calc(100vh - 30px);
+  background-color: burlywood;
+}
+
+#undangan img {
+  height: 100%;
+  width: 100%;
+}
+
+/* #showcase {
+  height: 100vh;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#showcase img {
+  height: 100%;
+} */
+
+
+#profile-us {
+  background: #f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align: center;
+}
+
+#profile-us p {
+  font-family: 'Josefin Sans';
+  color: black;
+}
+
+#profile-us p.customer {
+  font-size: 18px;
+  color: #666;
+}
+
+#info1 .info-right {
+  margin-top: 90px;
+}
+
+#info2 {
+  margin-top: 20px 0 60px 0;
+}
+
+#contact {
+  background: url(../img/06.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+  /* margin-top: 40px; */
+  color: #fff;
+  border-top: #333 7px solid;
+  border-bottom: #333 7px solid;
+}
+
+.invitation {
+  margin-top: 40px;
+}
+
+.refHadist {
+  font-size: 20px;
+  border-right: #EF5976 solid 10px;
+  padding-right: 10px;
+}
+.srcRef {
+  font-size: 10px;
+}
+
+.mask {
+  min-height: 100%;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img.img-card {
+    border-radius: 5px 5px 0 0;
+}
+
+.container-card {
+    padding: 2px 2px;
+}
+
+.mempelai {
+  color: #337ab7 !important;
+  font-size: 18px !important;
+  padding-top: 10px !important;
+}
+
+.wedding-date {
+  background: #fff;
+  border: 1px solid #337ab7;
+  border-radius: 5px;
+  margin-left: 2px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.text-info {
+  font-size: 20px;
+  padding-top: 30px;
+}
+.text-date {
+  font-size: 80px;
+}
+
+iframe {
+  width: 100%;
+}
+
+/* Timeline */
+#our-story {
+  padding-top: 40px;
+}
+.timeline {
+    position: relative;
+    padding: 21px 0px 10px;
+    margin-top: 4px;
+    margin-bottom: 30px;
+}
+
+.timeline .line {
+    position: absolute;
+    width: 4px;
+    display: block;
+    background: currentColor;
+    top: 0px;
+    bottom: 0px;
+    margin-left: 30px;
+}
+
+.timeline .separator {
+    border-top: 1px solid currentColor;
+    padding: 5px;
+    padding-left: 40px;
+    font-style: italic;
+    font-size: .9em;
+    margin-left: 30px;
+}
+
+.timeline .line::before { top: -4px; }
+.timeline .line::after { bottom: -4px; }
+.timeline .line::before,
+.timeline .line::after {
+    content: '';
+    position: absolute;
+    left: -4px;
+    width: 12px;
+    height: 12px;
+    display: block;
+    border-radius: 50%;
+    background: currentColor;
+}
+
+.timeline .panel {
+    position: relative;
+    margin: 10px 0px 21px 70px;
+    clear: both;
+}
+
+.timeline .panel::before {
+    position: absolute;
+    display: block;
+    top: 8px;
+    left: -24px;
+    content: '';
+    width: 0px;
+    height: 0px;
+    border: inherit;
+    border-width: 12px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.timeline .panel .panel-heading.icon * { font-size: 20px; vertical-align: middle; line-height: 40px; }
+.timeline .panel .panel-heading.icon {
+    position: absolute;
+    left: -59px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+}
+
+.timeline .panel-outline {
+    border-color: transparent;
+    background: transparent;
+    box-shadow: none;
+}
+
+.timeline .panel-outline .panel-body {
+    padding: 10px 0px;
+}
+
+.timeline .panel-outline .panel-heading:not(.icon),
+.timeline .panel-outline .panel-footer {
+    display: none;
+}
+
+.text-footer {
+  padding: 20px 0;
+}
+/* Countdown */
+.countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  @media (max-width: 480px) {
+    .countdown {
+      margin-top: 20px; } }
+  .countdown-item {
+    font-size: 64px;
+    line-height: 1.2; }
+    @media (max-width: 480px) {
+      .countdown-item {
+        font-size: 32px; } }
+  .countdown-text {
+    font-size: 14px; }
+  .countdown-separator {
+    font-size: 36px;
+    margin: 0 20px; }
+    @media (max-width: 480px) {
+      .countdown-separator {
+        margin: 0 10px;
+        font-size: 28px; } }
